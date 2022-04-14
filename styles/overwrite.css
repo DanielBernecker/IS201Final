@@ -1,0 +1,143 @@
+.txtcenter{
+    text-align: center;
+    /*border: 2px #666666 solid*/
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color:aliceblue;
+}
+
+footer{
+    background-color: white;
+}
+
+.bspace{
+    padding-bottom: 100px;
+}
+
+.rspace{
+    padding-right: 40px;
+}
+
+.lspace{
+    padding-left: 40px;
+}
+
+.linkspace1{
+    padding-right: 130px;
+}
+
+.linkspace2{
+    padding-left: 130px;
+}
+
+.linktext{
+    font-size: 20pt;
+}
+
+.fspace{
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+.normtext{
+    font-style: normal;
+}
+
+.wback{
+    background-color: white;
+}
+
+a{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h2{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h3{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.font{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.italic{
+    font-style: italic;
+}
+
+.unerline{
+    text-decoration: underline;
+}
+
+.blacktxt{
+    color: black;
+}
+
+.bold{
+    font-weight: bold;
+}
+
+/* start of tableau styles*/
+.general {
+	/*border: 2px solid white; */
+	position: absolute;
+}
+
+.header {
+	top: 5px;
+	height: 300px;
+	left: 5px;
+	right: 5px;
+	z-index: 3;
+}
+
+.leftmenu {
+	top: 114px;
+	bottom: 64px;
+	left: 5px;
+	width: 100px;
+	z-index: 1;
+	padding-top: 200px;
+}
+
+.mainbody {
+	top: 114px;
+	bottom: 300px;
+	left: 100px;
+	right: 100px;
+	z-index: 2;
+}
+
+.rightmenu {
+	top: 114px;
+	bottom: 64px;
+	right: 5px;
+	width: 100px;
+	padding-top: 200px;
+}
+
+.footer {
+	bottom: 5px;
+	left: 5px;
+	right: 5px;
+	height: 150px;
+	position: fixed;
+}
+
+.subheader {
+	float: right;
+}
+
+h5 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    font-size: 20pt;
+}
