@@ -112,7 +112,7 @@ h3{
 }
 
 .mainbody {
-	top: 250px;
+	top: 275px;
 	bottom: 300px;
 	left: 100px;
 	right: 100px;
@@ -142,7 +142,14 @@ h3{
 h5 {
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bolder;
-    font-size: 35pt;
+    font-size: 45pt;
+}
+
+h6 {
+    font-family: Arial Nova, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 20pt;
+    margin-bottom: 20px;
 }
 
 .button {
