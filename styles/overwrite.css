@@ -97,6 +97,9 @@ h3{
 	left: 5px;
 	right: 5px;
 	z-index: 3;
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-left: 20px;
 }
 
 .leftmenu {
@@ -109,7 +112,7 @@ h3{
 }
 
 .mainbody {
-	top: 114px;
+	top: 250px;
 	bottom: 300px;
 	left: 100px;
 	right: 100px;
@@ -125,11 +128,11 @@ h3{
 }
 
 .footer {
-	bottom: 5px;
-	left: 5px;
-	right: 5px;
+	bottom: 1px;
+    left: 0px;
+	right: 0px;
 	height: 150px;
-	position: fixed;
+    z-index: 3;
 }
 
 .subheader {
@@ -139,5 +142,11 @@ h3{
 h5 {
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bolder;
-    font-size: 20pt;
+    font-size: 35pt;
+}
+
+.button {
+    font-style: italic;
+    text-decoration: none;
+    color: dimgray;
 }
